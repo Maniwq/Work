@@ -2,7 +2,7 @@ Pipeline{
     agent any
     Environment{
         APP_NAME = 'python - app'
-        IMAGE_TAG = "${BUILD NUMBER}"a
+        IMAGE_TAG = "${BUILD NUMBER}"
         DOCKER_IMAGE = "yourdockerhubusername/Python - app:${MY DOCKER_IMAGE}"
         KUBE_DEPLOYMENT = "my-app-deployment"
     }
